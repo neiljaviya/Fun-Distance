@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Walking Distance</string>
+
+    <string-array name="task">
+        <item>Walk 5 meters</item>
+        <item>Walk 10 meters</item>
+        <item>Walk 20 meters</item>
+    </string-array>
+</resources>
