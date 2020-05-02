@@ -11,7 +11,8 @@
         android:layout_marginBottom="20dp"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:id="@+id/task"/>
+        android:id="@+id/task"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -19,6 +20,21 @@
         android:id="@+id/orientation"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/pointer"
+        android:src="@drawable/red_arraow"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/main_iv"
+        android:src="@drawable/arrow_finale"
         />
 
     <TextView
@@ -41,6 +57,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Stop Pedometer"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tv_dir"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:text="--------------------"
+        android:gravity="center"
         />
 
     <TextView
